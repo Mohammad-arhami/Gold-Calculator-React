@@ -1,5 +1,4 @@
 import '../App.css'
-// import './InputField.css'
 
 const InputField = () => {
     return (

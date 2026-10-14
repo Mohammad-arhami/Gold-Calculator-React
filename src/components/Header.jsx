@@ -1,5 +1,5 @@
 import '../App.css'
-// import './Header.css'
+
 import mainLogo from "../assets/gold logo L.PNG";
 
 const Header = () => {
