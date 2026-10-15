@@ -1,5 +1,4 @@
 import '../App.css'
-
 import mainLogo from "../assets/gold logo L.PNG";
 
 const Header = () => {
