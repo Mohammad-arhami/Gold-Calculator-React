@@ -7,6 +7,8 @@ import ResultPanel from "./components/ResultPanel";
 
 function App() {
 
+  const percentOptions = Array.from({ length: 30 }, (_, i) => i + 1);
+
   const [goldPrice, setGoldPrice] = useState('');
   const [weight, setWeight] = useState('');
   const [wage, setWage] = useState('');
@@ -63,6 +65,8 @@ function App() {
             label="اجرت ساخت"
             value={wage}
             onChange={setWage}
+            isCombo
+            options={percentOptions}
           />
           <InputField
             label="سود فروشنده "

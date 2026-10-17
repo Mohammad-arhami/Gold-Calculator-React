@@ -166,7 +166,7 @@
 }
 
 .combo-toggle:hover {
-  background: var(--gold-soft);
+  background: rgba(212, 175, 55, 0.08);
   color: var(--gold);
 }
 
